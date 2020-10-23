@@ -1,0 +1,127 @@
+{
+  "yeelight:wonder:0x0000000012c5f656": {
+    "class": "org.eclipse.smarthome.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "Yeelight Color LED Bulb",
+      "channels": [
+        {
+          "acceptedItemType": "Color",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yeelight",
+              "wonder",
+              "0x0000000012c5f656",
+              "color"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yeelight",
+              "color"
+            ]
+          },
+          "label": "Color",
+          "description": "The color channel allows to control the color of a light.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": [
+            "Lighting"
+          ]
+        },
+        {
+          "acceptedItemType": "Dimmer",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yeelight",
+              "wonder",
+              "0x0000000012c5f656",
+              "colorTemperature"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yeelight",
+              "colorTemperature"
+            ]
+          },
+          "label": "Color Temperature",
+          "description": "The CT channel allows to control the CT of a light.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": [
+            "ColorTemperature"
+          ]
+        },
+        {
+          "acceptedItemType": "String",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "yeelight",
+              "wonder",
+              "0x0000000012c5f656",
+              "command"
+            ]
+          },
+          "channelTypeUID": {
+            "segments": [
+              "yeelight",
+              "command"
+            ]
+          },
+          "label": "Command",
+          "description": "Send a command directly to the device. For advanced users only.",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "duration": 500,
+          "deviceId": "0x0000000012c5f656"
+        }
+      },
+      "properties": {
+        "Ext": "",
+        "Server": "POSIX UPnP/1.0 YGLC/1",
+        "color_mode": "1",
+        "sat": "100",
+        "bright": "1",
+        "rgb": "16750848",
+        "Date": "",
+        "ct": "3000",
+        "Cache-Control": "max-age\u003d3600",
+        "name": "",
+        "hue": "36",
+        "model": "color",
+        "id": "0x0000000012c5f656",
+        "power": "off",
+        "fw_ver": "35",
+        "support": "get_prop set_default set_power toggle set_bright start_cf stop_cf set_scene cron_add cron_get cron_del set_ct_abx set_rgb set_hsv set_adjust adjust_bright adjust_ct adjust_color set_music set_name",
+        "Location": "yeelight://192.168.3.16:55443"
+      },
+      "uid": {
+        "segments": [
+          "yeelight",
+          "wonder",
+          "0x0000000012c5f656"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "yeelight",
+          "wonder"
+        ]
+      }
+    }
+  }
+}

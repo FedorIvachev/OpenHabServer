@@ -1,0 +1,27 @@
+2020-09-07 19:41:01.363 [thome.event.ExtensionEvent] - Extension 'package-expert' has been installed.
+2020-09-07 19:42:14.737 [thome.event.ExtensionEvent] - Extension 'transformation-javascript' has been installed.
+2020-09-07 19:42:14.739 [thome.event.ExtensionEvent] - Extension 'transformation-regex' has been installed.
+2020-09-07 19:42:14.740 [thome.event.ExtensionEvent] - Extension 'ui-habpanel' has been installed.
+2020-09-07 19:42:14.740 [thome.event.ExtensionEvent] - Extension 'transformation-jsonpath' has been installed.
+2020-09-07 19:42:14.741 [thome.event.ExtensionEvent] - Extension 'transformation-xpath' has been installed.
+2020-09-07 19:42:14.742 [thome.event.ExtensionEvent] - Extension 'ui-restdocs' has been installed.
+2020-09-07 19:42:14.743 [thome.event.ExtensionEvent] - Extension 'transformation-map' has been installed.
+2020-09-07 19:42:14.744 [thome.event.ExtensionEvent] - Extension 'ui-basic' has been installed.
+2020-09-07 19:42:14.745 [thome.event.ExtensionEvent] - Extension 'ui-classic' has been installed.
+2020-09-07 19:42:14.746 [thome.event.ExtensionEvent] - Extension 'ui-habmin' has been installed.
+2020-09-07 19:42:14.747 [thome.event.ExtensionEvent] - Extension 'transformation-xslt' has been installed.
+2020-09-07 19:42:14.749 [thome.event.ExtensionEvent] - Extension 'transformation-exec' has been installed.
+2020-09-07 19:42:14.750 [thome.event.ExtensionEvent] - Extension 'ui-paper' has been installed.
+2020-09-07 19:42:14.751 [thome.event.ExtensionEvent] - Extension 'transformation-scale' has been installed.
+2020-09-29 22:56:31.735 [thome.event.ExtensionEvent] - Extension 'binding-yeelight' has been installed.
+2020-09-29 23:00:17.055 [home.event.InboxAddedEvent] - Discovery Result with UID 'yeelight:wonder:0x0000000012c5f656' has been added.
+2020-09-29 23:00:23.204 [me.event.InboxRemovedEvent] - Discovery Result with UID 'yeelight:wonder:0x0000000012c5f656' has been removed.
+2020-09-29 23:00:23.219 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to INITIALIZING
+2020-09-29 23:00:23.278 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
+2020-09-29 23:00:24.285 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from OFFLINE: Device is offline! to UNKNOWN
+2020-09-29 23:00:24.292 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNKNOWN to ONLINE
+2020-09-30 00:08:31.153 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from ONLINE to OFFLINE: Device is offline!
+2020-10-23 10:37:10.690 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 10:37:10.724 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
+2020-10-23 10:37:23.122 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from OFFLINE: Device is offline! to UNINITIALIZED
+2020-10-23 10:37:23.139 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
