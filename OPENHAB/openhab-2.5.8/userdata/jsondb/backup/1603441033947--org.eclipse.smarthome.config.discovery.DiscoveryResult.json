@@ -1,0 +1,28 @@
+{
+  "network:servicedevice:192_168_1_1_80": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "servicedevice",
+          "192_168_1_1_80"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "servicedevice"
+        ]
+      },
+      "properties": {
+        "port": 80,
+        "hostname": "192.168.1.1"
+      },
+      "flag": "NEW",
+      "label": "Device providing a Webserver (192.168.1.1:80)",
+      "timestamp": 1603441005693,
+      "timeToLive": 600
+    }
+  }
+}

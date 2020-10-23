@@ -1,0 +1,97 @@
+{
+  "NetworkDevice192168156_Latency -\u003e network:pingdevice:192_168_1_56:latency": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_56",
+          "latency"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "NetworkDevice192168156_Latency"
+    }
+  },
+  "NetworkDevice1921681103_Online -\u003e network:pingdevice:192_168_1_103:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_103",
+          "online"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "NetworkDevice1921681103_Online"
+    }
+  },
+  "NetworkDevice192168156_LastSeen -\u003e network:pingdevice:192_168_1_56:lastseen": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_56",
+          "lastseen"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "NetworkDevice192168156_LastSeen"
+    }
+  },
+  "NetworkDevice192168156_Online -\u003e network:pingdevice:192_168_1_56:online": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_56",
+          "online"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "NetworkDevice192168156_Online"
+    }
+  },
+  "NetworkDevice1921681103_Latency -\u003e network:pingdevice:192_168_1_103:latency": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_103",
+          "latency"
+        ]
+      },
+      "configuration": {
+        "properties": {
+          "profile": "system:default"
+        }
+      },
+      "itemName": "NetworkDevice1921681103_Latency"
+    }
+  }
+}

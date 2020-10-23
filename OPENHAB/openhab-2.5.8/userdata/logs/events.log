@@ -25,3 +25,173 @@
 2020-10-23 10:37:10.724 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
 2020-10-23 10:37:23.122 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from OFFLINE: Device is offline! to UNINITIALIZED
 2020-10-23 10:37:23.139 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 10:52:19.665 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 10:52:19.703 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
+2020-10-23 11:15:09.998 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:15:10.019 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
+2020-10-23 11:16:04.732 [thome.event.ExtensionEvent] - Extension 'binding-network' has been installed.
+2020-10-23 11:16:45.710 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_1_1_80' has been added.
+2020-10-23 11:16:45.861 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_1' has been added.
+2020-10-23 11:16:49.039 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_56' has been added.
+2020-10-23 11:17:01.157 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_56' has been removed.
+2020-10-23 11:17:01.184 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:17:01.279 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from INITIALIZING to ONLINE
+2020-10-23 11:17:01.294 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:192_168_1_56' has been updated.
+2020-10-23 11:17:13.435 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_1' has been removed.
+2020-10-23 11:17:13.446 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:17:13.518 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from INITIALIZING to ONLINE
+2020-10-23 11:17:13.532 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:192_168_1_1' has been updated.
+2020-10-23 11:17:41.446 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice192168156_Online-network:pingdevice:192_168_1_56:online' has been added.
+2020-10-23 11:17:41.560 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Online changed from NULL to ON
+2020-10-23 11:17:47.678 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice192168156_Latency-network:pingdevice:192_168_1_56:latency' has been added.
+2020-10-23 11:17:47.768 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from NULL to 61.0 ms
+2020-10-23 11:17:52.709 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice192168156_LastSeen-network:pingdevice:192_168_1_56:lastseen' has been added.
+2020-10-23 11:17:52.735 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from NULL to 2020-10-23T11:17:47.740+0300
+2020-10-23 11:18:01.498 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 61.0 ms to 71.0 ms
+2020-10-23 11:18:01.504 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:17:47.740+0300 to 2020-10-23T11:18:01.491+0300
+2020-10-23 11:19:01.591 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 71.0 ms to 78.0 ms
+2020-10-23 11:19:01.593 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:18:01.491+0300 to 2020-10-23T11:19:01.584+0300
+2020-10-23 11:19:05.370 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_1_1_80' has been removed.
+2020-10-23 11:19:05.788 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:servicedevice:192_168_1_1_80' has been added.
+2020-10-23 11:19:11.828 [home.event.InboxAddedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_103' has been added.
+2020-10-23 11:19:12.455 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:servicedevice:192_168_1_1_80' has been removed.
+2020-10-23 11:19:12.459 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:19:12.469 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from INITIALIZING to ONLINE
+2020-10-23 11:19:12.480 [me.event.ThingUpdatedEvent] - Thing 'network:servicedevice:192_168_1_1_80' has been updated.
+2020-10-23 11:19:15.732 [me.event.InboxRemovedEvent] - Discovery Result with UID 'network:pingdevice:192_168_1_103' has been removed.
+2020-10-23 11:19:15.736 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:19:15.845 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from INITIALIZING to ONLINE
+2020-10-23 11:19:15.865 [me.event.ThingUpdatedEvent] - Thing 'network:pingdevice:192_168_1_103' has been updated.
+2020-10-23 11:19:35.373 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice1921681103_Online-network:pingdevice:192_168_1_103:online' has been added.
+2020-10-23 11:19:35.516 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Online changed from NULL to ON
+2020-10-23 11:19:41.808 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice1921681103_Latency-network:pingdevice:192_168_1_103:latency' has been added.
+2020-10-23 11:19:42.042 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from NULL to 228.0 ms
+2020-10-23 11:19:48.655 [.ItemChannelLinkAddedEvent] - Link 'NetworkDevice1921681103_LastSeen-network:pingdevice:192_168_1_103:lastseen' has been added.
+2020-10-23 11:19:48.660 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from NULL to 2020-10-23T11:19:42.035+0300
+2020-10-23 11:20:01.677 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 78.0 ms to 73.0 ms
+2020-10-23 11:20:01.684 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:19:01.584+0300 to 2020-10-23T11:20:01.669+0300
+2020-10-23 11:20:20.883 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Online changed from ON to OFF
+2020-10-23 11:20:20.886 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 228.0 ms to UNDEF
+2020-10-23 11:21:01.763 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 73.0 ms to 77.0 ms
+2020-10-23 11:21:01.766 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:20:01.669+0300 to 2020-10-23T11:21:01.760+0300
+2020-10-23 11:22:01.843 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 77.0 ms to 74.0 ms
+2020-10-23 11:22:01.844 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:21:01.760+0300 to 2020-10-23T11:22:01.837+0300
+2020-10-23 11:23:01.942 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 74.0 ms to 92.0 ms
+2020-10-23 11:23:01.943 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:22:01.837+0300 to 2020-10-23T11:23:01.937+0300
+2020-10-23 11:24:02.027 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 92.0 ms to 69.0 ms
+2020-10-23 11:24:02.029 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:23:01.937+0300 to 2020-10-23T11:24:02.022+0300
+2020-10-23 11:24:27.547 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Online changed from OFF to ON
+2020-10-23 11:24:27.552 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from UNDEF to 640.0 ms
+2020-10-23 11:24:27.553 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:19:42.035+0300 to 2020-10-23T11:24:27.545+0300
+2020-10-23 11:25:02.096 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 69.0 ms to 65.0 ms
+2020-10-23 11:25:02.099 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:24:02.022+0300 to 2020-10-23T11:25:02.090+0300
+2020-10-23 11:25:27.865 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 640.0 ms to 290.0 ms
+2020-10-23 11:25:27.867 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:24:27.545+0300 to 2020-10-23T11:25:27.856+0300
+2020-10-23 11:26:02.213 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 65.0 ms to 93.0 ms
+2020-10-23 11:26:02.217 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:25:02.090+0300 to 2020-10-23T11:26:02.204+0300
+2020-10-23 11:26:28.175 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 290.0 ms to 303.0 ms
+2020-10-23 11:26:28.181 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:25:27.856+0300 to 2020-10-23T11:26:28.171+0300
+2020-10-23 11:27:02.307 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 93.0 ms to 82.0 ms
+2020-10-23 11:27:02.309 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:26:02.204+0300 to 2020-10-23T11:27:02.300+0300
+2020-10-23 11:27:28.287 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 303.0 ms to 103.0 ms
+2020-10-23 11:27:28.291 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:26:28.171+0300 to 2020-10-23T11:27:28.283+0300
+2020-10-23 11:28:02.385 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 82.0 ms to 69.0 ms
+2020-10-23 11:28:02.390 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:27:02.300+0300 to 2020-10-23T11:28:02.379+0300
+2020-10-23 11:28:28.603 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 103.0 ms to 309.0 ms
+2020-10-23 11:28:28.606 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:27:28.283+0300 to 2020-10-23T11:28:28.599+0300
+2020-10-23 11:29:02.481 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 69.0 ms to 75.0 ms
+2020-10-23 11:29:02.485 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:28:02.379+0300 to 2020-10-23T11:29:02.475+0300
+2020-10-23 11:29:28.726 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 309.0 ms to 98.0 ms
+2020-10-23 11:29:28.727 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:28:28.599+0300 to 2020-10-23T11:29:28.717+0300
+2020-10-23 11:30:02.571 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 75.0 ms to 72.0 ms
+2020-10-23 11:30:02.573 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:29:02.475+0300 to 2020-10-23T11:30:02.567+0300
+2020-10-23 11:30:29.034 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 98.0 ms to 287.0 ms
+2020-10-23 11:30:29.036 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:29:28.717+0300 to 2020-10-23T11:30:29.027+0300
+2020-10-23 11:31:02.650 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 72.0 ms to 68.0 ms
+2020-10-23 11:31:02.654 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:30:02.567+0300 to 2020-10-23T11:31:02.642+0300
+2020-10-23 11:31:29.356 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 287.0 ms to 309.0 ms
+2020-10-23 11:31:29.357 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:30:29.027+0300 to 2020-10-23T11:31:29.345+0300
+2020-10-23 11:32:02.732 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 68.0 ms to 69.0 ms
+2020-10-23 11:32:02.733 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:31:02.642+0300 to 2020-10-23T11:32:02.728+0300
+2020-10-23 11:32:29.664 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 309.0 ms to 295.0 ms
+2020-10-23 11:32:29.666 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:31:29.345+0300 to 2020-10-23T11:32:29.660+0300
+2020-10-23 11:33:02.818 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 69.0 ms to 72.0 ms
+2020-10-23 11:33:02.819 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:32:02.728+0300 to 2020-10-23T11:33:02.807+0300
+2020-10-23 11:33:30.085 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 295.0 ms to 407.0 ms
+2020-10-23 11:33:30.088 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:32:29.660+0300 to 2020-10-23T11:33:30.078+0300
+2020-10-23 11:34:02.900 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 72.0 ms to 73.0 ms
+2020-10-23 11:34:02.902 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:33:02.807+0300 to 2020-10-23T11:34:02.893+0300
+2020-10-23 11:34:30.401 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 407.0 ms to 307.0 ms
+2020-10-23 11:34:30.404 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:33:30.078+0300 to 2020-10-23T11:34:30.397+0300
+2020-10-23 11:35:02.996 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 73.0 ms to 88.0 ms
+2020-10-23 11:35:03.001 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:34:02.893+0300 to 2020-10-23T11:35:02.992+0300
+2020-10-23 11:35:30.715 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 307.0 ms to 294.0 ms
+2020-10-23 11:35:30.717 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:34:30.397+0300 to 2020-10-23T11:35:30.708+0300
+2020-10-23 11:36:03.101 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 88.0 ms to 83.0 ms
+2020-10-23 11:36:03.107 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:35:02.992+0300 to 2020-10-23T11:36:03.097+0300
+2020-10-23 11:36:31.035 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 294.0 ms to 315.0 ms
+2020-10-23 11:36:31.039 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:35:30.708+0300 to 2020-10-23T11:36:31.029+0300
+2020-10-23 11:37:03.201 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 83.0 ms to 77.0 ms
+2020-10-23 11:37:03.205 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:36:03.097+0300 to 2020-10-23T11:37:03.196+0300
+2020-10-23 11:37:31.352 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 315.0 ms to 291.0 ms
+2020-10-23 11:37:31.353 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:36:31.029+0300 to 2020-10-23T11:37:31.345+0300
+2020-10-23 11:38:03.307 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 77.0 ms to 90.0 ms
+2020-10-23 11:38:03.310 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:37:03.196+0300 to 2020-10-23T11:38:03.302+0300
+2020-10-23 11:38:31.670 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 291.0 ms to 305.0 ms
+2020-10-23 11:38:31.680 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:37:31.345+0300 to 2020-10-23T11:38:31.662+0300
+2020-10-23 11:39:03.394 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 90.0 ms to 72.0 ms
+2020-10-23 11:39:03.398 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:38:03.302+0300 to 2020-10-23T11:39:03.389+0300
+2020-10-23 11:39:31.985 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 305.0 ms to 293.0 ms
+2020-10-23 11:39:31.986 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:38:31.662+0300 to 2020-10-23T11:39:31.980+0300
+2020-10-23 11:40:03.483 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 72.0 ms to 71.0 ms
+2020-10-23 11:40:03.484 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:39:03.389+0300 to 2020-10-23T11:40:03.470+0300
+2020-10-23 11:40:32.339 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 293.0 ms to 308.0 ms
+2020-10-23 11:40:32.341 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:39:31.980+0300 to 2020-10-23T11:40:32.294+0300
+2020-10-23 11:41:03.536 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 71.0 ms to 53.0 ms
+2020-10-23 11:41:03.537 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:40:03.470+0300 to 2020-10-23T11:41:03.533+0300
+2020-10-23 11:41:32.445 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 308.0 ms to 88.0 ms
+2020-10-23 11:41:32.448 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:40:32.294+0300 to 2020-10-23T11:41:32.440+0300
+2020-10-23 11:42:03.605 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 53.0 ms to 56.0 ms
+2020-10-23 11:42:03.607 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:41:03.533+0300 to 2020-10-23T11:42:03.601+0300
+2020-10-23 11:42:32.725 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 88.0 ms to 273.0 ms
+2020-10-23 11:42:32.726 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:41:32.440+0300 to 2020-10-23T11:42:32.721+0300
+2020-10-23 11:43:03.725 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 56.0 ms to 98.0 ms
+2020-10-23 11:43:03.727 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:42:03.601+0300 to 2020-10-23T11:43:03.719+0300
+2020-10-23 11:43:33.043 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from 273.0 ms to 311.0 ms
+2020-10-23 11:43:33.044 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from 2020-10-23T11:42:32.721+0300 to 2020-10-23T11:43:33.036+0300
+2020-10-23 11:44:03.802 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from 98.0 ms to 70.0 ms
+2020-10-23 11:44:03.805 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from 2020-10-23T11:43:03.719+0300 to 2020-10-23T11:44:03.797+0300
+2020-10-23 11:46:00.787 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:46:00.807 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from INITIALIZING to OFFLINE: Device is offline!
+2020-10-23 11:46:00.861 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:46:01.004 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from INITIALIZING to ONLINE
+2020-10-23 11:46:01.011 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:46:01.064 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from NULL to UNDEF
+2020-10-23 11:46:01.118 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from INITIALIZING to ONLINE
+2020-10-23 11:46:01.129 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from NULL to UNDEF
+2020-10-23 11:46:01.130 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:46:01.211 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from INITIALIZING to ONLINE
+2020-10-23 11:46:01.213 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Online changed from NULL to ON
+2020-10-23 11:46:01.217 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from UNINITIALIZED to INITIALIZING
+2020-10-23 11:46:01.227 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from INITIALIZING to ONLINE
+2020-10-23 11:46:01.270 [vent.ItemStateChangedEvent] - NetworkDevice192168156_Latency changed from NULL to 75.0 ms
+2020-10-23 11:46:01.272 [vent.ItemStateChangedEvent] - NetworkDevice192168156_LastSeen changed from UNDEF to 2020-10-23T11:46:01.205+0300
+2020-10-23 11:46:01.345 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Latency changed from NULL to 324.0 ms
+2020-10-23 11:46:01.347 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_Online changed from NULL to ON
+2020-10-23 11:46:01.349 [vent.ItemStateChangedEvent] - NetworkDevice1921681103_LastSeen changed from UNDEF to 2020-10-23T11:46:01.338+0300
+2020-10-23 11:46:03.844 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from ONLINE to UNINITIALIZED
+2020-10-23 11:46:03.862 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_56' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 11:46:03.864 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from ONLINE to UNINITIALIZED
+2020-10-23 11:46:03.875 [hingStatusInfoChangedEvent] - 'network:servicedevice:192_168_1_1_80' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 11:46:03.879 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from ONLINE to UNINITIALIZED
+2020-10-23 11:46:03.889 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_103' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 11:46:03.890 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from ONLINE to UNINITIALIZED
+2020-10-23 11:46:03.902 [hingStatusInfoChangedEvent] - 'network:pingdevice:192_168_1_1' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 11:46:03.923 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from OFFLINE: Device is offline! to UNINITIALIZED
+2020-10-23 11:46:03.937 [hingStatusInfoChangedEvent] - 'yeelight:wonder:0x0000000012c5f656' changed from UNINITIALIZED to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2020-10-23 11:46:04.442 [temChannelLinkRemovedEvent] - Link 'NetworkDevice1921681103_Online => network:pingdevice:192_168_1_103:online' has been removed.
+2020-10-23 11:46:04.443 [temChannelLinkRemovedEvent] - Link 'NetworkDevice192168156_Latency => network:pingdevice:192_168_1_56:latency' has been removed.
+2020-10-23 11:46:04.444 [temChannelLinkRemovedEvent] - Link 'NetworkDevice1921681103_Latency => network:pingdevice:192_168_1_103:latency' has been removed.
+2020-10-23 11:46:04.447 [temChannelLinkRemovedEvent] - Link 'NetworkDevice192168156_LastSeen => network:pingdevice:192_168_1_56:lastseen' has been removed.
+2020-10-23 11:46:04.451 [temChannelLinkRemovedEvent] - Link 'NetworkDevice1921681103_LastSeen => network:pingdevice:192_168_1_103:lastseen' has been removed.
+2020-10-23 11:46:04.454 [temChannelLinkRemovedEvent] - Link 'NetworkDevice192168156_Online => network:pingdevice:192_168_1_56:online' has been removed.

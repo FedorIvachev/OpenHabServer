@@ -67,3 +67,72 @@
 2020-10-23 10:37:23.421 [INFO ] [.dashboard.internal.DashboardService] - Stopped Dashboard
 2020-10-23 10:37:34.826 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
 2020-10-23 10:37:41.809 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-10-23 10:52:09.058 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
+2020-10-23 10:52:17.257 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-10-23 10:52:18.438 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at http://192.168.1.56:8080
+2020-10-23 10:52:18.439 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at https://192.168.1.56:8443
+2020-10-23 10:52:19.278 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2020-10-23 10:52:19.361 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2020-10-23 10:52:19.480 [INFO ] [openhab.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2020-10-23 11:14:57.197 [WARN ] [org.apache.felix.fileinstall        ] - D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons does not exist, please create it.
+2020-10-23 11:14:57.208 [WARN ] [org.apache.felix.fileinstall        ] - Root path does not exist: D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons
+2020-10-23 11:15:00.190 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
+2020-10-23 11:15:08.036 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-10-23 11:15:08.882 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at http://192.168.1.56:8080
+2020-10-23 11:15:08.883 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at https://192.168.1.56:8443
+2020-10-23 11:15:09.680 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2020-10-23 11:15:09.755 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2020-10-23 11:15:09.821 [INFO ] [openhab.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2020-10-23 11:16:04.016 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2020-10-23 11:16:04.705 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2020-10-23 11:16:45.709 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'network:servicedevice:192_168_1_1_80' to inbox.
+2020-10-23 11:16:45.861 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'network:pingdevice:192_168_1_1' to inbox.
+2020-10-23 11:16:49.039 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'network:pingdevice:192_168_1_56' to inbox.
+2020-10-23 11:17:01.276 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2020-10-23 11:19:05.787 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'network:servicedevice:192_168_1_1_80' to inbox.
+2020-10-23 11:19:11.828 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'network:pingdevice:192_168_1_103' to inbox.
+2020-10-23 11:44:43.714 [WARN ] [org.apache.felix.fileinstall        ] - D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons does not exist, please create it.
+2020-10-23 11:44:43.727 [WARN ] [org.apache.felix.fileinstall        ] - Root path does not exist: D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons
+2020-10-23 11:44:45.852 [WARN ] [org.apache.karaf.shell.ssh.Activator] - Error starting activator
+java.lang.IllegalArgumentException: KeyExchangeFactories not set
+	at org.apache.sshd.common.util.ValidateUtils.createFormattedException(ValidateUtils.java:213) ~[bundleFile:1.7.0]
+	at org.apache.sshd.common.util.ValidateUtils.throwIllegalArgumentException(ValidateUtils.java:179) ~[bundleFile:1.7.0]
+	at org.apache.sshd.common.util.ValidateUtils.checkTrue(ValidateUtils.java:174) ~[bundleFile:1.7.0]
+	at org.apache.sshd.common.util.ValidateUtils.checkNotNullAndNotEmpty(ValidateUtils.java:80) ~[bundleFile:1.7.0]
+	at org.apache.sshd.common.helpers.AbstractFactoryManager.checkConfig(AbstractFactoryManager.java:475) ~[bundleFile:1.7.0]
+	at org.apache.sshd.server.SshServer.checkConfig(SshServer.java:280) ~[bundleFile:1.7.0]
+	at org.apache.sshd.server.SshServer.start(SshServer.java:302) ~[bundleFile:1.7.0]
+	at org.apache.karaf.shell.ssh.Activator.createAndRunSshServer(Activator.java:124) ~[bundleFile:?]
+	at org.apache.karaf.shell.ssh.Activator.doStart(Activator.java:113) ~[bundleFile:?]
+	at org.apache.karaf.util.tracker.BaseActivator.run(BaseActivator.java:312) [bundleFile:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_265]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_265]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_265]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_265]
+2020-10-23 11:44:47.139 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
+2020-10-23 11:45:01.435 [WARN ] [org.apache.felix.fileinstall        ] - D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons does not exist, please create it.
+2020-10-23 11:45:01.449 [WARN ] [org.apache.felix.fileinstall        ] - Root path does not exist: D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons
+2020-10-23 11:45:04.651 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
+2020-10-23 11:45:12.785 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-10-23 11:45:48.966 [WARN ] [org.apache.felix.fileinstall        ] - D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons does not exist, please create it.
+2020-10-23 11:45:48.982 [WARN ] [org.apache.felix.fileinstall        ] - Root path does not exist: D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons
+2020-10-23 11:45:51.872 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.
+2020-10-23 11:45:58.815 [INFO ] [thome.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-10-23 11:45:59.810 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at http://192.168.1.56:8080
+2020-10-23 11:45:59.811 [INFO ] [.dashboard.internal.DashboardService] - Started Dashboard at https://192.168.1.56:8443
+2020-10-23 11:46:00.494 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Started HABmin servlet at /habmin
+2020-10-23 11:46:00.558 [INFO ] [panel.internal.HABPanelDashboardTile] - Started HABPanel at /habpanel
+2020-10-23 11:46:00.645 [INFO ] [openhab.ui.paper.internal.PaperUIApp] - Started Paper UI at /paperui
+2020-10-23 11:46:00.823 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2020-10-23 11:46:00.997 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2020-10-23 11:46:01.676 [WARN ] [lipse.smarthome.io.net.exec.ExecUtil] - Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "arping" (in directory "."): CreateProcess error=2, The system cannot find the file specified)
+2020-10-23 11:46:03.962 [INFO ] [openhab.ui.paper.internal.PaperUIApp] - Stopped Paper UI
+2020-10-23 11:46:03.987 [INFO ] [panel.internal.HABPanelDashboardTile] - Stopped HABPanel
+2020-10-23 11:46:04.009 [INFO ] [ui.habmin.internal.servlet.HABminApp] - Stopped HABmin servlet
+2020-10-23 11:46:04.043 [INFO ] [assic.internal.servlet.WebAppServlet] - Stopped Classic UI
+2020-10-23 11:46:04.077 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2020-10-23 11:46:04.259 [INFO ] [.dashboard.internal.DashboardService] - Stopped Dashboard
+2020-10-23 11:47:40.697 [WARN ] [org.apache.felix.fileinstall        ] - D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons does not exist, please create it.
+2020-10-23 11:47:40.715 [WARN ] [org.apache.felix.fileinstall        ] - Root path does not exist: D:\Docs\MainDocs\VRSimulator\Org\OPENHAB\openhab-2.5.8\addons
+2020-10-23 11:47:43.625 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '55.514507,36.985512'.

@@ -1,0 +1,47 @@
+{
+  "NetworkDevice1921681103_Latency": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Time",
+      "tags": [],
+      "label": "Latency"
+    }
+  },
+  "NetworkDevice192168156_Latency": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Time",
+      "tags": [],
+      "label": "Latency"
+    }
+  },
+  "NetworkDevice192168156_LastSeen": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "tags": [],
+      "label": "Last Seen"
+    }
+  },
+  "NetworkDevice1921681103_Online": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "Online"
+    }
+  },
+  "NetworkDevice192168156_Online": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "tags": [],
+      "label": "Online"
+    }
+  }
+}

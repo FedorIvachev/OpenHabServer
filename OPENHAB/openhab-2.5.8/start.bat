@@ -11,3 +11,4 @@ IF [%OPENHAB_RUNTIME%]==[] (
 	set RUNTIME=%OPENHAB_RUNTIME%
 )
 "%RUNTIME%\bin\karaf.bat" %*
+pause

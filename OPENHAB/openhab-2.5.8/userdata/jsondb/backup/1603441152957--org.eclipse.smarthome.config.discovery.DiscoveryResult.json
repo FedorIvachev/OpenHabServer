@@ -1,0 +1,27 @@
+{
+  "network:pingdevice:192_168_1_103": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "network",
+          "pingdevice",
+          "192_168_1_103"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "network",
+          "pingdevice"
+        ]
+      },
+      "properties": {
+        "hostname": "192.168.1.103"
+      },
+      "flag": "NEW",
+      "label": "Network Device (192.168.1.103)",
+      "timestamp": 1603441151826,
+      "timeToLive": 600
+    }
+  }
+}
